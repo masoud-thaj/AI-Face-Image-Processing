@@ -14,9 +14,8 @@ This project uses Python, OpenCV, and Dlib to:
 
 ## 📂 Project Contents
 
-- [`face_color_extraction.ipynb`](face_color_extraction.ipynb) — Main notebook for processing images
+- [`AI_Face_Image_Processing.ipynb`](AI_Face_Image_Processing.ipynb) — Main notebook for processing images
 - [Sample input images like `face.jpg`](face.jpg) — Example image with one face
-- [Sample input image `face_multiple.jpg`](face_multiple.jpg) — Image with multiple faces
 - [Sample output CSV files like `face.csv`](face.csv) — RGB values from landmarks
 
 ---
