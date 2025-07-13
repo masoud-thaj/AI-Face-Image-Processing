@@ -31,16 +31,16 @@ This project uses Python, OpenCV, and Dlib to:
 Install required packages using:
 pip install opencv-python dlib pandas matplotlib
 
-##📌 Setup Instructions
-1.Download the Dlib shape predictor model
+## 📌 Setup Instructions
+### 1. Download the Dlib shape predictor model
 You can run these commands in the notebook or terminal:
 
 wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
 bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
 
-2.Upload your image files to the working directory
+### 2. Upload your image files to the working directory
 
-3.Run the notebook cells to:
+### 3. Run the notebook cells to:
   
   Detect faces
   
@@ -50,7 +50,7 @@ bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
   
   Show visual output with landmark annotations
 
-4.📊 Output CSV Format
+### 4. 📊 Output CSV Format
 Each row in the output CSV contains color information from one facial point on one face:
 
 face_id	region	  x	  y  	R	  G	  B
@@ -70,7 +70,7 @@ tiger.jpeg – animal face (for error testing)
 
 These images help you verify both successful and failed detection scenarios.
 
-5.❗ Error Handling
+### 5.❗ Error Handling
 The script includes error handling for:
 
 Image file not found or unreadable
@@ -83,11 +83,11 @@ Landmark detection failure
 
 It prints appropriate warnings and skips invalid cases.
 
-##📄 License
+## 📄 License
 This project is for educational and research purposes.
 The Dlib shape predictor model is distributed under its own license — see http://dlib.net for more details.
 
-##🤝 Acknowledgements
+## 🤝 Acknowledgements
 Dlib – for the pretrained 68-point facial landmark model
 
 OpenCV – for face detection and image handling
