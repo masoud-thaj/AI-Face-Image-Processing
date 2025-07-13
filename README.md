@@ -54,10 +54,18 @@ bzip2 -d shape_predictor_68_face_landmarks.dat.bz2
 Each row in the output CSV contains color information from one facial point on one face:
 
 face_id	region	  x	  y  	R	  G	  B
+
 0      	left_eye	100	120	130	120	110
+
 0      	right_eye	160	120	125	115	105
+
 0      	nose	    130	150	140	130	120
+
 1      	left_eye	...	...	...	...	...
+.       .
+.       .
+.       .
+
 
 🧪 Sample Images Included
 face.jpg – single face
