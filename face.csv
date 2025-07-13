@@ -1,0 +1,4 @@
+face_id,region,x,y,R,G,B
+0,left_eye_corner,254,268,137,33,60
+0,right_eye_corner,343,269,127,32,64
+0,nose_tip,317,318,249,221,197
