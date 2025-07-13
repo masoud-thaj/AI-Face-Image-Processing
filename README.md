@@ -31,6 +31,8 @@ This project uses Python, OpenCV, and Dlib to:
 Install required packages using:
 pip install opencv-python dlib pandas matplotlib
 
+---
+
 ## 📌 Setup Instructions
 ### 1. Download the Dlib shape predictor model
 You can run these commands in the notebook or terminal:
@@ -85,9 +87,13 @@ Landmark detection failure
 
 It prints appropriate warnings and skips invalid cases.
 
+---
+
 ## 📄 License
 This project is for educational and research purposes.
 The Dlib shape predictor model is distributed under its own license — see http://dlib.net for more details.
+
+---
 
 ## 🤝 Acknowledgements
 Dlib – for the pretrained 68-point facial landmark model
