@@ -1,6 +1,7 @@
 # AI-Face-Image-Processing
 
 This task was done as a part of competency assesment for an AI internship through Callus Company.
+
 This project uses Python, OpenCV, and Dlib to:
 
 - Detect one or more human faces in an image
